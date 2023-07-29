@@ -6,7 +6,7 @@
 /*   By: surkim <surkim@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/26 11:47:42 by surkim            #+#    #+#             */
-/*   Updated: 2023/07/29 15:38:18 by surkim           ###   ########.fr       */
+/*   Updated: 2023/07/29 17:14:32 by surkim           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,6 +57,8 @@ typedef struct s_fdf
 	double		scale;
 	int			axis_x;
 	int			axis_y;
+	int			min_z;
+	int			max_z;
 	double		angle_x;
 	double		angle_y;
 	double		angle_z;
