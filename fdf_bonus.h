@@ -13,7 +13,7 @@
 #ifndef FDF_BONUS_H
 # define FDF_BONUS_H
 
-# include "./minilibx_macos/mlx.h"
+# include "./mlx/mlx.h"
 # include <unistd.h>
 # include <math.h>
 # include <fcntl.h>
